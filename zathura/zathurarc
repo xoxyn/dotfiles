@@ -1,0 +1,9 @@
+# Dark mode
+set recolor true
+set recolor-darkcolor "#ffffff"
+set recolor-lightcolor "#000"
+
+# Keep images and colors sensible
+set recolor-keephue true
+set adjust-open width
+set selection-clipboard clipboard

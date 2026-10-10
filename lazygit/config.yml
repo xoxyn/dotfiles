@@ -1,18 +1,67 @@
 # ~/.config/lazygit/config.yml
 
 gui:
+  colorScheme: dark
+  border: rounded
+
   theme:
     activeBorderColor:
       - green
       - bold
-  showIcons: true
+    inactiveBorderColor:
+      - default
+    searchingActiveBorderColor:
+      - cyan
+      - bold
+    selectedLineFgColor:
+      - bold
+    unstagedChangesColor:
+      - red
+
+  nerdFontsVersion: "3"
+  showFileIcons: true
+  showFileTree: true
+  showNumstatInFilesView: true
+
+  sidePanelWidth: 0.28
+  scrollHeight: 3
+  scrollOffMargin: 3
+  wrapLinesInDiffView: true
+  useHunkModeInDiffView: true
+
+  commitGraphStyle: detailed
+  showBranchCommitHash: true
+  showDivergenceFromBaseBranch: arrowAndNumber
+
+  showRandomTip: false
+  showCommandLog: true
+  showBottomLine: true
+
 git:
   diffRenderers:
     - colorArg: always
       command: delta --dark --paging=never
+
   commit:
     signOff: false
+    autoWrapCommitMessage: true
+    autoWrapWidth: 72
+
+  autoFetch: true
+  autoRefresh: true
+  autoDetectExternalChanges: true
+  fetchAll: true
+
+  log:
+    order: topo-order
+    showGraph: always
+
+  localBranchSortOrder: recency
+  diffContextSize: 3
+
 keybinding:
   universal:
     quit: 'q'
     return: '<esc>'
+
+confirmOnQuit: false

@@ -1,11 +1,14 @@
 @define-color highlight #ffffff;
+@define-color dark-10 rgba(0, 0, 0, 0.90);
 @define-color dark-9 rgba(0, 0, 0, 0.70);
 @define-color dark-8 rgba(17, 17, 17, 0.65);
 @define-color dark-7 rgba(28, 28, 28, 0.65);
 
 * {
   font-family: "Iosevka", "Symbols Nerd Font", monospace;
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: 200;
+  background-color: @dark-10;
 }
 
 window#waybar {
@@ -23,9 +26,8 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background: @highlight;
-  color: black;
-  font-weight: 700;
+  color: pink;
+  font-weight: 800;
 }
 
 #workspaces button.urgent {

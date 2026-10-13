@@ -29,7 +29,12 @@
         { "type": "shell",    "key": "SHELL  " },
         { "type": "wm",       "key": "WM     " },
         { "type": "terminal", "key": "TERM   " },
-        { "type": "cpu",      "key": "CPU    " },
-        { "type": "memory",   "key": "MEM    " }
+        { "type": "memory",   "key": "MEM    " },
+
+        "break",
+{
+    "type": "custom",
+    "format": "{#38;2;107;107;107}███ {#38;2;144;144;144}███ {#38;2;192;192;192}███ {#38;2;255;255;255}███ {#38;2;255;192;203}███"
+}
     ]
 }

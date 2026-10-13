@@ -4,35 +4,32 @@
     "logo": {
         "type": "file",
         "source": "~/.config/fastfetch/logo.txt",
-        "color": {
-            "1": "white"
-        },
-        "padding": {
-            "top": 1,
-            "right": 4
-        }
+        "color": { "1": "white" },
+        "padding": { "top": 1, "right": 4 }
     },
 
     "display": {
-        "separator": "  ",
+        "separator": " ",
         "color": {
             "keys": "white",
             "title": "white",
-            "separator": "90"
+            "separator": "90",
+            "output": "90"
         }
     },
 
     "modules": [
-        "title",
-        "separator",
-        "os",
-        "kernel",
-        "uptime",
-        "packages",
-        "shell",
-        "wm",
-        "terminal",
-        "cpu",
-        "memory"
+        { "type": "title", "color": { "user": "white", "at": "90", "host": "white" } },
+        // { "type": "custom", "format": "────────────────────────", "outputColor": "90" },
+
+        { "type": "os",       "key": "OS     " },
+        { "type": "kernel",   "key": "KERNEL " },
+        { "type": "uptime",   "key": "UP     " },
+        { "type": "packages", "key": "PKGS   " },
+        { "type": "shell",    "key": "SHELL  " },
+        { "type": "wm",       "key": "WM     " },
+        { "type": "terminal", "key": "TERM   " },
+        { "type": "cpu",      "key": "CPU    " },
+        { "type": "memory",   "key": "MEM    " }
     ]
 }

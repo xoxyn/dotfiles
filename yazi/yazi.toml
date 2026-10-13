@@ -45,11 +45,15 @@ open = [
 play = [
   { run = "mpv %s", orphan = true, for = "unix" },
 ]
+pdf = [
+  { run = "zathura %s", orphan = true, for = "unix" },
+]
 
 # ── Open rules ─────────────────────────────────────────────────────────────────
 [open]
 # Prepend your rules so they run before the defaults
 prepend_rules = [
+  { mime = "application/pdf",    use = "pdf" },
   { mime = "text/*",    use = "edit" },
   { mime = "video/*",   use = "play" },
   { url  = "*.json",    use = "edit" },

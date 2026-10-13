@@ -10,7 +10,7 @@ hl.monitor({
     output   = "eDP-1",
     mode     = "preferred",
     position = "auto",
-    scale    = "1.6",
+    scale    = "1.5",
 })
 
 -- external screen (LG TV), placed to the right of the laptop

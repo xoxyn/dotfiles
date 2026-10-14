@@ -1,0 +1,9 @@
+If:
+  PathMatch: [.*\.cpp, .*\.hpp, .*\.cc, .*\.h]
+CompileFlags:
+  Add: [-std=c++17, -Wall, -Wextra, -Wpedantic, -I., -Iinclude, -I../include]
+---
+If:
+  PathMatch: [.*\.c]
+CompileFlags:
+  Add: [-std=c17, -Wall, -Wextra, -Wpedantic, -I., -Iinclude, -I../include]

@@ -100,3 +100,5 @@ PostmanAgent/
 mlflow/
 libreoffice/
 @forge/
+PERMISSIONS_LINTER-nodejs/
+timewarrior/

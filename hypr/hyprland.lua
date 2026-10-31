@@ -2,6 +2,7 @@ require("monitors")
 require("inputs")
 require("keybinds")
 require("looknfeel")
+require("shaders")
 -------------------
 ---- AUTOSTART ----
 -------------------

@@ -13,7 +13,8 @@ local runner      = "rofi -show run -theme ~/.config/rofi/theme.rasi"
 local mainMod     = "SUPER" -- Sets "Windows" key as main modifier
 local secondMod   = "SUPER + SHIFT"
 
-local wallpaper   = "~/.local/bin/wallpaper-picker"
+local wallpaper   = "~/.config/scripts/wallpaper.sh"
+local shaderPicker = "~/.config/scripts/shader.sh"
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
@@ -44,6 +45,7 @@ hl.bind(secondMod .. " + j", hl.dsp.window.move({ direction = "down" }))
 hl.bind(mainMod .. " + T", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
 hl.bind(secondMod .. " + W", hl.dsp.exec_cmd(wallpaper))
+hl.bind(secondMod .. " + G", hl.dsp.exec_cmd(shaderPicker))
 
 -- Screenshot
 hl.bind(secondMod .. " + A", hl.dsp.exec_cmd("~/.local/bin/screenshot"))

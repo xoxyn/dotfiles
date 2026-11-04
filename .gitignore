@@ -102,3 +102,7 @@ libreoffice/
 @forge/
 PERMISSIONS_LINTER-nodejs/
 timewarrior/
+hypr/shaders/UnusedShaders
+QtProject.conf
+user-dirs.dirs
+user-dirs.locale

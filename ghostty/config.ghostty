@@ -20,5 +20,5 @@ cursor-style-blink = false
 
 
 # Custom GLSL shaders
-custom-shader = /home/nyxox/.config/ghostty/ghostty-shaders/custom-crt.glsl
+custom-shader = /home/nyxox/.config/ghostty/shaders/custom-crt.glsl
 custom-shader-animation = true

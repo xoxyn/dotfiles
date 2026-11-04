@@ -106,3 +106,4 @@ hypr/shaders/UnusedShaders
 QtProject.conf
 user-dirs.dirs
 user-dirs.locale
+**/ghostty-shaders/

@@ -107,3 +107,6 @@ QtProject.conf
 user-dirs.dirs
 user-dirs.locale
 **/ghostty-shaders/
+Cardinal/
+fltk.org/
+turborepo/

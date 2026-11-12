@@ -1,6 +1,0 @@
-[Added Associations]
-image/png=imv.desktop;
-text/plain=nvim.desktop;vim.desktop;
-
-[Default Applications]
-text/plain=nvim.desktop

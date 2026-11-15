@@ -13,6 +13,7 @@
     ],
     "modules-center": [],
     "modules-right": [
+        "hyprland/language",
         "bluetooth",
         "network",
         "cpu",
@@ -32,6 +33,14 @@
         "on-click": "activate",
         "sort-by-number": true,
         "persistent-workspaces": { "*": 4 }
+    },
+
+    "hyprland/language": {
+        "format": "[{}]",
+        "format-en": "[QWERTY]",
+        "format-en-colemak_dh": "[COLEMAK-DH]",
+        "tooltip": false,
+        "on-click": "hyprctl switchxkblayout all next"
     },
 
     "bluetooth": {
